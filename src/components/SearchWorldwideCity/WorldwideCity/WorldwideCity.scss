@@ -1,0 +1,90 @@
+.worldwide-weather__city {
+  max-width: 80%;
+  height: 80vh;
+  max-height: 820px;
+  background: #ddd;
+  border-radius: 2rem;
+  margin: 1.2rem auto 0 auto;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  background-position: 99% 0%;
+  background-repeat: no-repeat;
+
+  &-name,
+  &-describe {
+    font-size: 3.5rem;
+    display: inline;
+    word-break: break-word;
+    font-weight: 700;
+    align-self: start;
+    margin: 0;
+  }
+
+  &-country {
+    font-size: 1.5rem;
+    align-self: start;
+    margin-top: -5.2rem;
+    color: #777777;
+  }
+
+  &-temp {
+    font-size: 8rem;
+    font-weight: bold;
+    line-height: 1;
+  }
+
+  &-advance {
+    font-size: 2rem;
+    position: absolute;
+    bottom: 0.8rem;
+    right: 0.8rem;
+    margin: 0;
+    cursor: pointer;
+    transition: color 0.2s;
+
+    &:hover {
+      color: #6b6565;
+    }
+  }
+
+  &-error {
+    font-size: 4rem;
+    color: red;
+    font-weight: bold;
+    justify-self: flex-start;
+  }
+
+  &-pressure,
+  &-humidity,
+  &-wind {
+    font-size: 2.1rem;
+    font-weight: 600;
+    margin: 0;
+    position: relative;
+  }
+
+  &-pressure:before,
+  &-humidity:before,
+  &-wind:before {
+    content: "";
+    position: absolute;
+    top: calc(50% - 0.6rem);
+    left: -2.5rem;
+    width: 24px;
+    height: 24px;
+  }
+
+  &-pressure:before {
+    background: url("../../../images/pressure.png");
+  }
+
+  &-humidity:before {
+    background: url("../../../images/humid.png");
+  }
+
+  &-wind:before {
+    background: url("../../../images/wind.png");
+    background-size: cover;
+    background-position: center center;
+  }
+}

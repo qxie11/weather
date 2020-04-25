@@ -1,0 +1,61 @@
+.search-worldwide {
+  .container {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+  }
+
+  &__city,
+  &__country {
+    width: 40%;
+    outline: none;
+    height: 3.5rem;
+    border: 2px solid #ddd;
+    background: #fff;
+    font-size: 1.3rem;
+    padding: 0 2rem 0 2rem;
+  }
+
+  &__city {
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-right: 1px solid #ddd;
+  }
+
+  &__country {
+    border-left: 1px solid #ddd;
+  }
+
+  &__button {
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    outline: none;
+    height: 3.5rem;
+    width: 10%;
+    background: #fff;
+    border: 2px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s ease;
+    display: inline;
+    padding: 0;
+    cursor: pointer;
+
+    &:hover {
+      color: #fff;
+      background: #ec6e4c;
+    }
+  }
+}

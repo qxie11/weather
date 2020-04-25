@@ -1,0 +1,243 @@
+@media screen and (max-width: 1830px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1830px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1490px) {
+  .ukraine-weather__city {
+    flex-basis: 22%;
+    max-width: 22%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 12px;
+  }
+
+  .worldwide-weather__city {
+    max-height: 600px;
+  }
+
+  .worldwide-weather__city-pressure:before,
+  .worldwide-weather__city-humidity:before,
+  .worldwide-weather__city-wind:before {
+    top: calc(50% - 0.9rem);
+    left: -3.5rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .ukraine-weather {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 11px;
+  }
+
+  .ukraine-weather__city {
+    background-size: 32%;
+    background-position: 105% -4%;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 10px;
+  }
+
+  .worldwide-weather__city {
+    max-height: 500px;
+    margin-top: 50px;
+  }
+
+  .ukraine-weather__city-pressure,
+  .ukraine-weather__city-humidity,
+  .ukraine-weather__city-wind {
+    margin-left: 1.3rem;
+
+    &:before {
+      top: calc(50% - 0.7rem);
+      left: -3rem;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .ukraine-weather__city {
+    flex-basis: 28%;
+    max-width: 28%;
+  }
+
+  .ukraine-weather__search-another,
+  .search-worldwide__button {
+    width: 15%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 9px;
+  }
+
+  .worldwide-weather__city {
+    min-width: 94%;
+    max-height: 500px;
+  }
+
+  .worldwide-weather__city-pressure:before,
+  .worldwide-weather__city-humidity:before,
+  .worldwide-weather__city-wind:before {
+    background-size: cover;
+    top: calc(50% - 0.6rem);
+    left: -2.5rem;
+    width: 14px;
+    height: 14px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .ukraine-weather__city {
+    flex-basis: 35%;
+    max-width: 35%;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .worldwide-weather__city {
+    max-height: 380px;
+  }
+
+  .search-worldwide {
+    .container {
+      width: 100%;
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    &__city {
+      border-top-left-radius: 4rem;
+      border-bottom-left-radius: 4rem;
+    }
+
+    &__city,
+    &__country {
+      width: 35%;
+      font-size: 1.5rem;
+    }
+
+    &__button {
+      width: 20%;
+      font-size: 1.8rem;
+      border-top-right-radius: 4rem;
+      border-bottom-right-radius: 4rem;
+    }
+
+    &__city,
+    &__country,
+    &__button {
+      height: 5.5rem;
+    }
+  }
+
+  .ukraine-weather {
+    width: 100%;
+    max-width: 100%;
+
+    &__search {
+      height: 5.5rem;
+
+      &-input {
+        width: 70%;
+        border-top-left-radius: 4rem;
+        border-bottom-left-radius: 4rem;
+        font-size: 2rem;
+        height: 100%;
+      }
+
+      &-another {
+        height: 100%;
+        width: 25%;
+        border-top-right-radius: 4rem;
+        border-bottom-right-radius: 4rem;
+        font-size: 1.2rem;
+      }
+    }
+
+    &__city {
+      flex-basis: 95%;
+      max-width: 95%;
+      min-height: 30vh;
+      margin-top: 20px;
+      background-size: 22%;
+      background-position: 103% -8%;
+      padding: 2rem;
+      box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.19);
+
+      &-name,
+      &-describe {
+        font-size: 3rem;
+      }
+
+      &-name {
+        margin: 0;
+      }
+
+      &-country {
+        font-size: 2rem;
+        padding-top: 5px;
+      }
+
+      &-temp {
+        font-size: 6rem;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 30px;
+      }
+
+      &-advance {
+        font-size: 2rem;
+      }
+
+      &-describe {
+        margin: 0;
+      }
+
+      &-pressure,
+      &-humidity,
+      &-wind {
+        font-size: 2rem;
+      }
+    }
+  }
+}
